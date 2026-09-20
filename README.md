@@ -161,54 +161,13 @@ Full entry: [`examples/hilbert-space.md`](examples/hilbert-space.md)
 
 Full entry: [`examples/atom.md`](examples/atom.md)
 
-## Repository organization
-
-```text
-Knowledge-System-How-To/
-├── README.md
-├── INDEX.md
-├── LICENSE
-├── NOTICE.md
-├── CITATION.cff
-├── CONTRIBUTING.md
-├── CODE_OF_CONDUCT.md
-├── EDITORIAL-GUIDE.md
-├── GITHUB-SETUP.md
-├── ROADMAP.md
-├── examples/
-│   ├── atom.md
-│   ├── hilbert-space.md
-│   └── transistor.md
-├── templates/
-│   ├── classification-tree-template.md
-│   ├── knowledge-unit-template.md
-│   └── source-record-template.md
-├── domains/
-│   ├── mathematics/
-│   ├── natural-sciences/
-│   ├── engineering/
-│   ├── computing/
-│   └── humanities/
-├── sources/
-│   └── README.md
-└── .github/
-    ├── ISSUE_TEMPLATE/
-    └── pull_request_template.md
-```
-
-New entries belong in an appropriate domain directory after the method and naming conventions stabilize. The `examples` directory contains reference implementations that demonstrate the expected depth and structure. Publication commands and recommended repository settings appear in [`GITHUB-SETUP.md`](GITHUB-SETUP.md).
-
 ## Contribution standard
 
 Contributions may add knowledge units, improve etymologies, correct structural descriptions, refine classifications, supply stronger sources, or identify boundary cases. Every factual change should include a source proportional to the claim.
 
-The repository uses three evidence levels.
-
 1. **Primary or normative evidence** includes standards, original papers, patents, archival records, official technical definitions, and historical documents.
 2. **Scholarly secondary evidence** includes peer reviewed reviews, academic monographs, and specialist encyclopedias.
 3. **Orientation evidence** includes general encyclopedias, museums, institutional explainers, and reputable etymological references.
-
-See [`CONTRIBUTING.md`](CONTRIBUTING.md) for the review workflow and [`EDITORIAL-GUIDE.md`](EDITORIAL-GUIDE.md) for prose, diagram, and source conventions.
 
 ## License and attribution
 
